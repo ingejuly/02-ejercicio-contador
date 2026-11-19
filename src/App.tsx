@@ -1,10 +1,9 @@
-import Contador from "./components/Contador";
+import ListaTareas from "./components/ListaTareas";
 
 function App() {
   return (
     <div>
-      <h1>Ejercicio Contador</h1>
-      <Contador />
+      <ListaTareas />
     </div>
   );
 }
