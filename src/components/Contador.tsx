@@ -9,7 +9,9 @@ function Contador() {
   };
 
   const restar = () => {
-    setCount(count - 1);
+    if (count > 0) {
+      setCount(count - 1);
+    }
   };
 
   const resetear = () => {
